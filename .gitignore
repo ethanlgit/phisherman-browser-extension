@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets & dependencies
+.env
+node_modules/
+
+# Editor / Code Runner scratch files
+tempCodeRunnerFile.*
+
+# Old dev notes (superseded by README.md)
+readme.txt
+
+# Large artifacts & data (regenerate by retraining / re-downloading)
+*.pkl
+backend/model/datasets/
